@@ -38,4 +38,15 @@ const Background = styled.div`
   }
 `;
 
-const ImageTitle = styled.div``;
+const ImageTitle = styled.div`
+  height: 30vh;
+  min-height: 170px;
+  width: 35vw;
+  min-width: 200px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+`;
